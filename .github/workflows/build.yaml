@@ -14,5 +14,8 @@ jobs:
           ref: master
           fetch-depth: 0
 
+      - name: install deps
+        run: npm install
+
       - name: Build 
-        run:  nx build
+        run:  npm run build
