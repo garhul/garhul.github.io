@@ -22,10 +22,15 @@ jobs:
         run: npm install
 
       - name: Build 
-        run:  npm run build
+        run: |
+          npm run build
+          cd ./projects
+          ./build.sh
+          cp -r ./dist ../dist/projects
+          cd ..
 
       - name: Add build number
-        run:  ${{github.run_number}} > ./dist/buil.txt
+        run:  ${{github.run_number}} > ./dist/buildnum.txt
   
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
