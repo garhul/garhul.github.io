@@ -1,6 +1,8 @@
 [submodule "projects/makingToolBox"]
 	path = projects/makingToolBox
 	url = git@github.com:garhul/makingToolBox.git
+  branch = master
 [submodule "projects/jstetris"]
 	path = projects/jstetris
 	url = git@github.com:garhul/jstetris.git
+  branch = master
