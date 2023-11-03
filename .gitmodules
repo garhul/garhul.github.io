@@ -1,0 +1,3 @@
+[submodule "projects/makingToolBox"]
+	path = projects/makingToolBox
+	url = git@github.com:garhul/makingToolBox.git
