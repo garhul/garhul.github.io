@@ -19,7 +19,7 @@ const projects: projectEntry[] = [
   {
     name: "Weather Station",
     description: "MQTT and esp8266 based climate gathering and reporting",
-    repo: "https://github.com/garhul/weatherSt",
+    repo: "https://github.com/garhul/weather_stations",
     tags: ['ESP8266', 'Embedded', 'IoT', 'LED', 'Arduino', 'MQTT']
   },
   {
