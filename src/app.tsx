@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
+import Background from "./components/background/background";
+import ProjectsPage from "./pages/projects";
 
 export function App() {
   return (
-    <>
-      Eh guacho!
-    </>
+    <Container>
+      <Background />
+      <ProjectsPage />
+    </Container>
   );
 }
 

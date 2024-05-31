@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg-dark:#f0f0f0;
+
+
+  --bg-btn-accent:#006699;
+
+}
+
+body {
+  /* color:--var(--bg-dark); */
+  /* background: linear-gradient(180deg, #222 0%, #074a57 90%); */
+  /* background-image: url('./assets/bg_smaller.jpg'); */
+  height:100vh;
+}
+
+.projectsContainer {  
+  display:flex;  
+  margin-top: 1em;  
+  gap:1em;
+  flex-wrap: wrap;
+}
+
+
+.projectDescription {
+  min-height: 120px;
+}
+
+.projectCard {
+  background-color: #fafafa;
+  padding:.5em;
+  margin:1em 0;
+  border-radius: .5em;
+  color:#999;  
+  min-width:40em;
+  box-shadow: .25em .25em .5em #00000020;
+  border:1px solid #f0f0f0;
+  gap:1em;
+  display:inline-flex;
+}
+
+.projectCard:hover {
+   backdrop-filter: blur(10px); 
+}
+
+.projectTags {
+  height:20%;
+  max-width: 20em;
+  font-size: 10pt;
+  font-weight: 200;
+  font-family: monospace;
+}
+
+.projectNav {
+  display:flex;
+  justify-content: right;
+  gap:.5em;
+}
+
+.projectNav > a {
+  display: block;
+  text-decoration: none;
+  color:#f0f0f0;
+  padding:.2em;
+  border-radius:.2em;
+  background-color:var(--bg-btn-accent);
+  box-shadow: .1em .1em .25em #00000060; 
+}
+
+
+.projectNav > a:hover {
+  
+}
+
+.projectNav > a:active {
+  filter:brightness(1.1);
+ 
+}
