@@ -13,8 +13,7 @@ for d in */ ; do
 
     echo "Building $d"
 
-    cd $d
-    git pull
+    cd $d    
     ls
     ./build.sh
     cp -r ./dist ../dist/$d
